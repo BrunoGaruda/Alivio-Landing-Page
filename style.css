@@ -140,3 +140,34 @@ header h2{
   border: none;
   border-radius: 0.4rem;
 }
+
+.works {
+  display: inline-flex;
+  margin-left: 27.5rem;
+  margin-top: 16.9rem;
+}
+
+.works1 h5{
+  margin-right: 13.6rem;
+  color: var(--text-color);
+
+  font-family: Lato;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 157%
+}
+
+.works1 h1{
+  margin-right: 13.6rem;
+  color: var(--primary-color);
+  font-size: 6.5rem;
+}
+
+.works2 h4{
+  font-family: Lato;
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+
+}
