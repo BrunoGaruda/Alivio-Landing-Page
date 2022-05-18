@@ -2,7 +2,8 @@
   --primary-color: hsla(163, 99%, 30%, 1);
   --secundary-color: #fff;
   --text-color: background: hsla(0, 0%, 16%, 1);
-  ;
+  --text-number-color: hsla(163, 99%, 30%, 0.2);
+  --margin-top-box-3: 14rem;
 
   font-size: 62.5%;
   --font-style1: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap';
@@ -19,6 +20,7 @@ body {
   height: auto;
 }
 
+/* === Barra de Nagegação === */
 header {
 width: 192rem;
 height: 8.5rem;
@@ -97,7 +99,7 @@ header h2{
 }
 
 
-
+/* === Primeira div intro === */
 .intro img{
   width: 192rem;
   height: auto;
@@ -141,6 +143,8 @@ header h2{
   border-radius: 0.4rem;
 }
 
+
+/* === Segunda div Works === */
 .works {
   display: inline-flex;
   margin-left: 27.5rem;
@@ -160,7 +164,7 @@ header h2{
 .works1 h1{
   margin-right: 13.6rem;
   color: var(--primary-color);
-  font-size: 6.5rem;
+  font-size: 5rem;
 }
 
 .works2 h4{
@@ -169,5 +173,50 @@ header h2{
   color: var(--text-color);
   font-size: 2rem;
   margin-bottom: 3rem;
+}
 
+.works-box {
+  display: inline-flex;
+  margin-left: 27.5rem;
+}
+
+
+.works-box h2{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 150%;
+  transform: translateX(8.5rem);
+}
+
+.works-box h5 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 150%;
+  width: 41rem;
+  margin-block: 7rem;
+}
+
+
+.number {
+  z-index: 1;
+  transform: translateY(4rem);
+}
+
+.works-box1 {
+  margin-right: 9.5rem;
+  margin-top: var(--margin-top-box-3);
+}
+
+.works-box2 {
+  margin-right: 9.5rem;
+  margin-top: calc(var(--margin-top-box-3) + 28.7rem);
+}
+
+.works-box3 {
+  margin-right: 9.5rem;
+  margin-top: calc(var(--margin-top-box-3) + 5.4rem);
 }
