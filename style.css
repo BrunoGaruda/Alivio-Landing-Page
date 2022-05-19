@@ -1,9 +1,10 @@
 :root {
   --primary-color: hsla(163, 99%, 30%, 1);
   --secundary-color: #fff;
-  --text-color: background: hsla(0, 0%, 16%, 1);
+  --text-color: hsla(0, 0%, 28%, 1);
   --text-number-color: hsla(163, 99%, 30%, 0.2);
   --margin-top-box-3: 14rem;
+  --background: #245852;
 
   font-size: 62.5%;
   --font-style1: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap';
@@ -22,26 +23,23 @@ body {
 
 /* === Barra de Nagegação === */
 header {
-width: 192rem;
-height: 8.5rem;
-background: #FFFFFF;
+  width: 192rem;
+  height: 8.5rem;
+  background: #ffffff;
 }
 
 header img {
   margin-left: calc(27.5rem - (7.957rem / 2));
-   margin-right: 10.046rem;
-  
+  margin-right: 10.046rem;
 }
 
-header h2{
+header h2 {
   margin-left: 7.2;
-  margin-inline: calc(7.2rem /2);
+  margin-inline: calc(7.2rem / 2);
   align-items: center;
   display: flex;
   width: 9.6rem;
   height: 2.4rem;
-
-
 }
 
 .top-menu {
@@ -54,7 +52,6 @@ header h2{
 
   align-items: center;
   justify-content: space-between;
-
 }
 
 .top-menu-nav {
@@ -66,54 +63,48 @@ header h2{
   display: flex;
   align-items: center;
   justify-content: spa;
-
-  
 }
 
-.btn-top{
+.btn-top {
   display: flex;
 }
 
-.btn-white{
+.btn-white {
   background-color: var(--secundary-color);
   color: var(--font-style1);
 
   border: none;
-   width: 8.9rem;
-
+  width: 8.9rem;
 }
 
-.btn-green1{
+.btn-green1 {
   color: var(--secundary-color);
   background-color: var(--primary-color);
 
   margin-right: 27.6rem;
- 
+
   width: 18.3rem;
   height: 5.1rem;
 
   border: none;
-  
+
   border-radius: 0.4rem;
- 
 }
 
-
 /* === Primeira div intro === */
-.intro img{
+.intro img {
   width: 192rem;
   height: auto;
   z-index: -1;
-  
+
   /* Faz com que a ocorra a flutuação */
-  float: left;    
+  float: left;
 }
 
 .intro-text {
   position: absolute;
   left: 24.5rem;
   top: calc(2rem + 17.5rem + (14.8rem / 2));
-  
 }
 
 .intro-text h1 {
@@ -135,14 +126,13 @@ header h2{
   background-color: var(--primary-color);
 
   margin-right: 27.6rem;
- 
+
   width: 18.3rem;
   height: 5.1rem;
 
   border: none;
   border-radius: 0.4rem;
 }
-
 
 /* === Segunda div Works === */
 .works {
@@ -151,23 +141,23 @@ header h2{
   margin-top: 16.9rem;
 }
 
-.works1 h5{
+.works1 h5 {
   margin-right: 13.6rem;
   color: var(--text-color);
 
   font-family: Lato;
   font-size: 2.4rem;
   font-weight: 600;
-  line-height: 157%
+  line-height: 157%;
 }
 
-.works1 h1{
+.works1 h1 {
   margin-right: 13.6rem;
   color: var(--primary-color);
   font-size: 5rem;
 }
 
-.works2 h4{
+.works2 h4 {
   font-family: Lato;
   font-weight: 500;
   color: var(--text-color);
@@ -180,8 +170,7 @@ header h2{
   margin-left: 27.5rem;
 }
 
-
-.works-box h2{
+.works-box h2 {
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 700;
@@ -199,7 +188,6 @@ header h2{
   width: 41rem;
   margin-block: 7rem;
 }
-
 
 .number {
   z-index: 1;
@@ -222,7 +210,6 @@ header h2{
 }
 
 /* ### Terceira div ### */
-
 .video-box {
   display: flex;
   /* flex-direction: column; */
@@ -263,13 +250,13 @@ header h2{
   margin-bottom: 5.7rem;
 }
 
-.video-box1 button{
+.video-box1 button {
   color: var(--secundary-color);
-  background-color: var(--primary-color);
+  background-color: var(--background);
 
   margin-left: 20.7rem;
   margin-right: 27.6rem;
- 
+
   width: 18.3rem;
   height: 5.1rem;
 
@@ -284,4 +271,111 @@ header h2{
   height: 51.611rem;
   left: 81.8rem;
   top: 281.6rem;
+}
+
+/* ### Quarta div ### */
+
+.product {
+  margin: 12rem 27.5rem 0rem 27.5rem;
+  display: flex;
+}
+
+.product-img-1 {
+  margin-left: 6.078rem;
+  position: relative;
+}
+
+.product-img-2 {
+  position: absolute;
+  left: -6.7rem;
+  top: 35.41rem;
+}
+
+.product-2 {
+  margin: 0rem 27.5rem 40.3rem 8.663rem;
+
+  width: 58.4rem;
+  height: 41.3rem;
+}
+
+.product-2 h3 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 157%;
+
+  color: var(--text-color);
+}
+
+.product-2 h1 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 157%;
+
+  width: 58.4rem;
+  height: 20.7rem;
+
+  color: var(--primary-color);
+}
+
+.product-2 h4 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.1rem;
+
+  color: var(--text-color);
+}
+
+.product-2 button {
+  color: var(--secundary-color);
+  background-color: var(--primary-color);
+
+  margin-top: 4rem;
+
+  width: 18.3rem;
+  height: 5.1rem;
+
+  border: none;
+  border-radius: 0.4rem;
+}
+
+/* ### Quinta div ### */
+
+.rodape {
+  background-color: var(--background);
+  height: 65.4rem;
+  display: flex;
+
+  padding-top: 9.5rem;
+}
+
+.rodape-text h2 {
+  margin-left: 27.5rem;
+  padding-bottom: 6rem;
+
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 5.5rem;
+
+  color: #ffffff;
+}
+
+.rodape-text h3 {
+  margin-left: 27.5rem;
+  padding-bottom: 6rem;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3rem;
+
+  color: #ffffff;
 }
